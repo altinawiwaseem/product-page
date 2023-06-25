@@ -34,5 +34,8 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 992px) {
+  .container {
+    padding: 0 2em;
+  }
 }
