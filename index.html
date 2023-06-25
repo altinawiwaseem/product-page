@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>E-commerce</title>
   <link rel="stylesheet" href="./src/styles/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
@@ -14,35 +15,58 @@
 
     <div class="body-wrapper">
       <header class="header">
-      <div class="hamburger-menu"></div>
-      <div class="logo-div">
-        <div class="logo">
-          <a href="#"><img src="./src/assets/images/logo/logo.svg" alt="Logo"></a>
-        </div>
-      </div>
-      <nav class="nav-bar">
-       
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Contact Us</a>
-        
-      </nav>
-      <div class="icons">
-        <div class="user-profile">
-          <img src="user-avatar.png" alt="User Avatar">
-          <span>John Doe</span>
-        </div>
-      </div>
-    </header>
 
-    <!-- main -->
-    <main></main>
-   </div> 
-   <!-- footer -->
+        <a href="#" class="menu trigger desktop-hide">
+          <i class="ri-menu-2-line"></i>
+        </a>
+
+        <div class="logo-div">
+          <div class="logo">
+            <a href="#"><img src="./src/assets/images/logo/logo.svg" alt="Logo"></a>
+          </div>
+        </div>
+        <nav class="nav-bar mobile-hide">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li> <a href="#">About Us</a></li>
+            <li> <a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="icons flexcenter">
+          <li>
+            <a href="#" class="icon wish-list mobile-hide">
+             <div class="icon-large">
+              <i class="ri-heart-line"></i> 
+            </div>
+            <div class="fly-item"><span>0</span></div> 
+            </a>
+          </li>
+          <div class="cart-div flexcenter ">
+            <li>
+              <a href="#" class="icon cart">
+                <div class="icon-large"> <i class="ri-shopping-cart-line"></i></div>
+                <div class="fly-item"><span>0</span></div> 
+              </a>
+            </li>
+            <div class="icon-text">
+              <div class="mini-text">Total</div>
+              <div class="cart-total">€0.00</div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </header>
+
+      <!-- main -->
+      <main></main>
+    </div>
+    <!-- footer -->
     <footer></footer>
-    
-    
-    
+
+
+
     <script type="module" src="./src/js/index.js"></script>
   </body>
 

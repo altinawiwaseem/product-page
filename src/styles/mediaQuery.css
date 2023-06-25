@@ -1,41 +1,33 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   main {
     width: 100vw;
   }
 
   .header {
     width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-  }
-
-  .logo-div {
-    flex-basis: 20%;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  .nav-bar {
-    display: none;
+    padding: 1rem;
   }
 
   .icons {
-    flex-basis: 20%;
-    justify-content: flex-end;
+    gap: 0.5rem;
   }
 
-  .hamburger-menu {
+  .cart-div {
+    margin-right: 1rem;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .desktop-hide {
     display: block;
-    flex-basis: 20%;
-    border: 1px solid red;
-    height: 30px;
-    margin-bottom: 10px;
   }
 }
 
-@media (min-width: 992px) {
+@media only screen and (max-width: 992px) {
   .container {
     padding: 0 2em;
+  }
+  .nav-bar ul {
+    padding: 0 2rem;
   }
 }
