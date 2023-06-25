@@ -1,0 +1,9 @@
+a,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: var(--font-size);
+
+  font-weight: var(--fw-bold);
+}

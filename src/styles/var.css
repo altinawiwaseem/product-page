@@ -1,0 +1,27 @@
+:root {
+  --font-size: 16px;
+  --font-small: 13px;
+  --font-smaller: 11px;
+
+  /* --primary-color: #f8f4eb; */
+  --primary-color: #fcf9f1;
+  --secondary-color: #d9d9d9;
+  --font-color: #1a1a1a;
+  --button-color: #ff6b66;
+  --bg-color: #b29d8c;
+
+  --primary-100: #ffe1e0;
+  --primary-300: #ffa6a3;
+
+  --color2: #683102;
+  --color6: #967c6d;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+
+  --trans-background-color: background-color 0.3s, color 0.3s;
+  --trans-background: background-color 0.3s;
+  --trans-color: color 0.3s;
+}
