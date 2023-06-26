@@ -1,106 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <!-- Remixicon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>E-commerce</title>
-  <link rel="stylesheet" href="./src/styles/style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-</head>
+    <!-- Glide.js -->
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.css"
+    />
 
-<body>
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.css
+    "
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
 
   <body>
-
-    <div class="body-wrapper">
-      <header class="header">
-        <div class="menu desktop-hide">
-          <a href="#" class=" trigger ">
-            <i class="ri-menu-2-line"></i>
-          </a>
-          <div class="menu-list">
-            <ul>
-              <div>
-                <li><a href="#">Home</a></li>
-              </div>
-              <div>
-                <li><a href="#">About Us</a></li>
-              </div>
-              <div>
-                <li><a href="#">Contact Us</a></li>
-              </div>
-            </ul>
-            <button class="close-btn">x</button>
-          </div>
-
-        </div>
-
-        <div class="logo-div">
-          <div class="logo">
-            <a href="#"><img src="./src/assets/images/logo/logo.svg" alt="Logo"></a>
-          </div>
-        </div>
-        <nav class="nav-bar mobile-hide">
+    <!-- header -->
+    <header class="header">
+      <div class="menu desktop-hide">
+        <a href="#" class="trigger">
+          <i class="ri-menu-2-line"></i>
+        </a>
+        <div class="menu-list">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li> <a href="#">About Us</a></li>
-            <li> <a href="#">Contact Us</a></li>
+            <div>
+              <li><a href="#">Home</a></li>
+            </div>
+            <div>
+              <li><a href="#">About Us</a></li>
+            </div>
+            <div>
+              <li><a href="#">Contact Us</a></li>
+            </div>
           </ul>
-        </nav>
-        <div class="icons flexcenter">
+          <button class="close-btn">x</button>
+        </div>
+      </div>
+
+      <div class="logo-div">
+        <div class="logo">
+          <a href="#"
+            ><img src="./src/assets/images/logo/logo.svg" alt="Logo"
+          /></a>
+        </div>
+      </div>
+      <nav class="nav-bar mobile-hide">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="icons flexcenter">
+        <li>
+          <a href="#" class="icon wish-list mobile-hide">
+            <div class="icon-large">
+              <i class="ri-heart-line"></i>
+            </div>
+            <div class="fly-item"><span>0</span></div>
+          </a>
+        </li>
+        <div class="cart-div flexcenter">
           <li>
-            <a href="#" class="icon wish-list mobile-hide">
+            <a href="#" class="icon cart">
               <div class="icon-large">
-                <i class="ri-heart-line"></i>
+                <i class="ri-shopping-cart-line"></i>
               </div>
               <div class="fly-item"><span>0</span></div>
             </a>
           </li>
-          <div class="cart-div flexcenter ">
-            <li>
-              <a href="#" class="icon cart">
-                <div class="icon-large"> <i class="ri-shopping-cart-line"></i></div>
-                <div class="fly-item"><span>0</span></div>
-              </a>
-            </li>
-            <div class="icon-text">
-              <div class="mini-text">Total</div>
-              <div class="cart-total">€0.00</div>
-            </div>
+          <div class="icon-text">
+            <div class="mini-text">Total</div>
+            <div class="cart-total">€0.00</div>
           </div>
-
         </div>
+      </div>
+    </header>
 
+    <!-- main -->
+    <main>
+      <div class="hero">
+        <div class="glide" id="glide1">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="center">
+                  <div class="left">
+                    <h1>Blood Orange</h1>
 
-      </header>
-
-      <!-- main -->
-      <main>
-        <div class="slider">
-          <div class="container">
-            <div class="wrapper">
-              <div class="myslider wrapper">
-                <div class="slide">
-                  <div class="item">
-                    <div class="image object-cover">
-                      <img src="./src/assets/images/slider-imgs/Blutorange_700_Front_UK.webp" alt="">
-                    </div>
-                    .text-content.flexcol>h4+h2+a.primary-button
+                    <a class="primary-button">Shop Now</a>
+                  </div>
+                  <div class="right">
+                    <img
+                      class="img1"
+                      src="./src/assets/images/slider-imgs/Blutorange_700_Front_UK.png"
+                      alt=""
+                    />
                   </div>
                 </div>
-              </div>
-            </div>
+              </li>
+              <li class="glide__slide">
+                <div class="center">
+                  <div class="left">
+                    <h1>Tough Nut</h1>
+                    <a class="primary-button">Shop Now</a>
+                  </div>
+                  <div class="right">
+                    <img
+                      class="img2"
+                      src="./src/assets/images/slider-imgs/CopyofHarteNuss_700_Front_UK.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="center">
+                  <div class="left">
+                    <h1>Lemon Drizzle</h1>
+                    <a class="primary-button">Shop Now</a>
+                  </div>
+                  <div class="right">
+                    <img
+                      class="img3"
+                      src="./src/assets/images/slider-imgs/CopyofSauer_700_Front_UK.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
+
     <!-- footer -->
     <footer></footer>
-
-
+    <script src="  https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.js"></script>
 
     <script type="module" src="./src/js/index.js"></script>
   </body>
-
 </html>

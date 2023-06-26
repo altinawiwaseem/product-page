@@ -1,3 +1,7 @@
+import { slider } from "./slider.js";
+
+slider();
+
 async function fetchProducts() {
   try {
     const response = await fetch("../../data/productsData.json");
