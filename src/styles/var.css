@@ -4,11 +4,15 @@
   --font-smaller: 11px;
 
   /*  --primary-color: #f8f4eb; */
-  --primary-color: #f5f1eb;
-  --secondary-color: #d9d9d9;
-  --font-color: #1a1a1a;
+  /*  --primary-color: #f5f1eb; */
+  --main-bg-color: #ffffff;
   --button-color: #ff6b66;
   --bg-color: #b29d8c;
+  --primary-color: #ffa566;
+  --secondary-color: #ff4d45;
+  --font-color: #1a1a1a;
+
+  --border-color: #e5e8ec;
 
   --primary-100: #ffe1e0;
   --primary-300: #ffa6a3;

@@ -4,7 +4,7 @@ a:link {
   text-decoration: none;
   color: var(--font-color);
   font-size: var(--font-size);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-medium);
 }
 
 .nav-bar ul li a:hover {

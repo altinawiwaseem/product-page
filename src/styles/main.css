@@ -20,12 +20,12 @@ body {
 main {
   width: 90vw;
   height: 100vh;
-  background-color: var(--primary-color);
+  background-color: var(--main-bg-color);
   max-width: 1400px;
 }
 
 .body-wrapper {
-  background-color: var(--primary-color);
+  background-color: var(--main-bg-color);
 }
 
 /* reusable selectors */
