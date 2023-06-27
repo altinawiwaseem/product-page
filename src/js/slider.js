@@ -3,7 +3,6 @@
 const slider1 = document.querySelector("#glide1");
 
 function slider() {
-  console.log("first");
   if (slider1) {
     new Glide(slider1, {
       type: "carousel",
@@ -14,6 +13,9 @@ function slider() {
       perView: 1,
       animationDuration: 800,
       animationTimingFunc: "linear",
+      pagination: {
+        el: ".glide__pagination",
+      },
     }).mount();
   }
 }

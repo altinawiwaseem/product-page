@@ -56,9 +56,9 @@
           /></a>
         </div>
       </div>
-      <nav class="nav-bar mobile-hide">
+      <nav class="navbar mobile-hide">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a class="active" href="#">Home</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
@@ -91,7 +91,8 @@
 
     <!-- main -->
     <main>
-      <div class="hero">
+      <!-- Hero Section -->
+      <section class="hero">
         <div class="glide" id="glide1">
           <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
@@ -143,8 +144,28 @@
               </li>
             </ul>
           </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section id="feature">
+        <div class="feature-box">
+          Best Quality <br />
+          Ingredients
+        </div>
+        <span></span>
+        <div class="feature-box">
+          Secure Shipping <br />
+          within 2 <br />
+          business days
+        </div>
+        <span></span>
+        <div class="feature-box">Free of Plastic</div>
+      </section>
     </main>
 
     <!-- footer -->

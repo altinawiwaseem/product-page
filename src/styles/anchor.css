@@ -6,11 +6,3 @@ a:link {
   font-size: var(--font-size);
   font-weight: var(--fw-medium);
 }
-
-.nav-bar ul li a:hover {
-  border-bottom: 2px solid black;
-}
-
-.nav-bar ul li:active {
-  transform: scale(0.98);
-}

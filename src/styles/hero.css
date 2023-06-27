@@ -72,6 +72,19 @@
   top: 35%;
 }
 
+.glide__bullet {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.glide__bullet--active {
+  background-color: #000;
+}
+
 @media only screen and (max-width: 1280px) {
   .hero .left {
     left: 0;

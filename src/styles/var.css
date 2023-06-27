@@ -5,13 +5,15 @@
 
   /*  --primary-color: #f8f4eb; */
   /*  --primary-color: #f5f1eb; */
+  --primary-color: #ffa566;
+  --secondary-color: #ff4d45;
+  --card-color: #fefdf9;
+
   --main-bg-color: #ffffff;
   --button-color: #ff6b66;
   --bg-color: #b29d8c;
-  --primary-color: #ffa566;
-  --secondary-color: #ff4d45;
-  --font-color: #1a1a1a;
 
+  --font-color: #1a1a1a;
   --border-color: #e5e8ec;
 
   --primary-100: #ffe1e0;

@@ -34,3 +34,26 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+function toggleNavbarVisibility() {
+  const navbar = document.querySelector(".navbar");
+  let prevScrollPos = window.pageYOffset;
+
+  function handleScroll() {
+    const currentScrollPos = window.pageYOffset;
+
+    if (currentScrollPos === 0) {
+      navbar.classList.remove("hidden-nav");
+    } else if (currentScrollPos > prevScrollPos) {
+      navbar.classList.add("hidden-nav");
+    } else {
+      navbar.classList.remove("hidden-nav");
+    }
+
+    prevScrollPos = currentScrollPos;
+  }
+
+  window.addEventListener("scroll", handleScroll);
+}
+
+toggleNavbarVisibility();

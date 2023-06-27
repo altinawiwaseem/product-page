@@ -6,8 +6,11 @@
   background-color: var(--main-bg-color);
   height: 100px;
   padding: 0 20px;
-  border-bottom: 1px solid var(--border-color);
+  z-index: 999;
+
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.6);
 }
+
 .menu {
   flex-basis: 20%;
   position: relative;
@@ -85,13 +88,13 @@
   height: auto;
 }
 
-.nav-bar {
+.navbar {
   flex-basis: 60%;
   display: flex;
   justify-content: center;
 }
 
-.nav-bar > ul {
+.navbar > ul {
   display: flex;
   width: 100%;
   padding: 0 8rem;
@@ -101,6 +104,14 @@ li {
   display: inline;
 }
 
+.navbarul li a:hover,
+.navbarul li a.active {
+  border-bottom: 2px solid black;
+}
+
+.navbarul li:active {
+  transform: scale(0.98);
+}
 .icons {
   flex-basis: 20%;
   gap: 3rem;
@@ -141,13 +152,6 @@ li {
 .icon:hover {
   transform: scale(1.1);
 }
-
-/* .trigger {
-  font-size: 1.5em;
-  display: flex;
-  padding: 0.25em;
-  margin-right: 0.25em;
-} */
 
 .desktop-hide {
   display: none;
