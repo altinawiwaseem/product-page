@@ -1,8 +1,10 @@
 import { slider } from "./slider.js";
+import { ProductList } from "./products.js";
+import { ViewProducts } from "./viewProducts.js";
 
 slider();
 
-async function fetchProducts() {
+/* async function fetchProducts() {
   try {
     const response = await fetch("../../data/productsData.json");
     const data = await response.json();
@@ -12,7 +14,7 @@ async function fetchProducts() {
   }
 }
 
-fetchProducts();
+fetchProducts(); */
 
 document.addEventListener("DOMContentLoaded", function () {
   const trigger = document.querySelector(".trigger");
@@ -35,25 +37,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-function toggleNavbarVisibility() {
-  const navbar = document.querySelector(".navbar");
-  let prevScrollPos = window.pageYOffset;
+const productList = new ProductList();
 
-  function handleScroll() {
-    const currentScrollPos = window.pageYOffset;
+const data = await productList.fetchProducts().then(() => {
+  return productList.products;
+});
 
-    if (currentScrollPos === 0) {
-      navbar.classList.remove("hidden-nav");
-    } else if (currentScrollPos > prevScrollPos) {
-      navbar.classList.add("hidden-nav");
-    } else {
-      navbar.classList.remove("hidden-nav");
-    }
+console.log(data);
+const viewProducts = new ViewProducts();
 
-    prevScrollPos = currentScrollPos;
-  }
-
-  window.addEventListener("scroll", handleScroll);
-}
-
-toggleNavbarVisibility();
+const productsCards = viewProducts.displayProducts(data);

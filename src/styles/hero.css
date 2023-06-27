@@ -36,15 +36,6 @@
   margin: 1rem 0;
 }
 
-.hero .left .hero-btn {
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1.6rem;
-  margin-top: 1rem;
-  background-color: var(--green);
-  color: white;
-}
-
 .hero .right {
   flex: 0 0 50%;
   height: 100%;
