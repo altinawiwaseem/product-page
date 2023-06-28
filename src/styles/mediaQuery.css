@@ -1,3 +1,18 @@
+@media only screen and (max-width: 992px) {
+  .container {
+    padding: 0 2em;
+  }
+  .navbar ul {
+    padding: 0 2rem;
+  }
+  /*  .cards-container {
+    gap: 0px;
+  } */
+  .product-card {
+    width: 33%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   main {
     width: 100vw;
@@ -18,13 +33,18 @@
   .desktop-hide {
     display: block;
   }
+
+  .product-card {
+    width: 45%;
+  }
 }
 
-@media only screen and (max-width: 992px) {
-  .container {
-    padding: 0 2em;
+@media only screen and (max-width: 480px) {
+  #products-container {
+    width: 100%;
+    padding: 0;
   }
-  .navbar ul {
-    padding: 0 2rem;
+  .product-card {
+    width: 100%;
   }
 }

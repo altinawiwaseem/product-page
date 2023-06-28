@@ -10,7 +10,8 @@ class Product {
     description,
     available,
     detailDescription,
-    images
+    images,
+    rating
   ) {
     this.id = id;
     this.name = name;
@@ -22,6 +23,7 @@ class Product {
     this.available = available;
     this.detailDescription = detailDescription;
     this.images = images;
+    this.rating = rating;
   }
 }
 
@@ -45,42 +47,14 @@ class ProductList {
           productData.description,
           productData.available,
           productData.detailDescription,
-          productData.images
+          productData.images,
+          productData.rating
         );
       });
     } catch (error) {
       console.error("Error fetching products:", error);
     }
   }
-
-  /* displayProducts() {
-      this.products.forEach((product) => {
-        const productElement = document.createElement('div');
-        productElement.classList.add('product');
-  
-        const imageElement = document.createElement('img');
-        imageElement.src = product.image;
-        productElement.appendChild(imageElement);
-  
-        const nameElement = document.createElement('h2');
-        nameElement.textContent = product.name;
-        productElement.appendChild(nameElement);
-  
-        const priceElement = document.createElement('p');
-        priceElement.textContent = `Price: $${product.price}`;
-        productElement.appendChild(priceElement);
-  
-        const descriptionElement = document.createElement('p');
-        descriptionElement.textContent = product.description;
-        productElement.appendChild(descriptionElement);
-  
-        productElement.addEventListener('click', () => {
-          this.handleProductClick(product);
-        });
-  
-        this.productsContainer.appendChild(productElement);
-      });
-    } */
 
   handleProductClick(product) {
     // Perform navigation to the individual product page based on the selected product
@@ -90,9 +64,3 @@ class ProductList {
 }
 
 export { ProductList };
-
-// Usage example
-/* const productList = new ProductList();
-productList.fetchProducts().then(() => {
-  productList.displayProducts();
-}); */

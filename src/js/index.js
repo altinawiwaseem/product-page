@@ -4,18 +4,6 @@ import { ViewProducts } from "./viewProducts.js";
 
 slider();
 
-/* async function fetchProducts() {
-  try {
-    const response = await fetch("../../data/productsData.json");
-    const data = await response.json();
-    console.log("data", data);
-  } catch (error) {
-    console.error("Error fetching products:", error);
-  }
-}
-
-fetchProducts(); */
-
 document.addEventListener("DOMContentLoaded", function () {
   const trigger = document.querySelector(".trigger");
   const menuList = document.querySelector(".menu-list");
@@ -37,13 +25,16 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-const productList = new ProductList();
+async function fetchAndDisplayProducts() {
+  try {
+    const productList = new ProductList();
+    const viewProducts = new ViewProducts();
 
-const data = await productList.fetchProducts().then(() => {
-  return productList.products;
-});
+    await productList.fetchProducts();
+    viewProducts.displayProducts(productList.products);
+  } catch (error) {
+    console.error("Error fetching and displaying products:", error);
+  }
+}
 
-console.log(data);
-const viewProducts = new ViewProducts();
-
-const productsCards = viewProducts.displayProducts(data);
+fetchAndDisplayProducts();

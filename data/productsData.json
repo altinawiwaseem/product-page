@@ -21,7 +21,8 @@
       "../src/assets/images/products/product1/Untitleddesign_44.webp",
       "../src/assets/images/products/product1/Untitleddesign_48.webp",
       "../src/assets/images/products/product1/Untitleddesign_49.webp"
-    ]
+    ],
+    "rating": 4
   },
   {
     "id": 2,
@@ -41,7 +42,8 @@
     "images": [
       "../src/assets/images/products/product2/BBQBox_Motiv01_Box_solo_1x1_1.jpg",
       "../src/assets/images/products/product2/BBQBox_Motiv02_2_Box_Produkte_UK_1x1_91361706-6b17-497b-9d6e-fc243e4d2e26.jpg"
-    ]
+    ],
+    "rating": 5
   },
   {
     "id": 3,
@@ -63,7 +65,8 @@
       "../src/assets/images/products/product3/3er_Set_700_Front_UK_2000.jpg",
       "../src/assets/images/products/product3/Copyof3er_Set_700_Detail_UK.webp",
       "../src/assets/images/products/product3/Copyof3er_Set_700_Oben_UK.webp"
-    ]
+    ],
+    "rating": 3
   },
   {
     "id": 4,
@@ -88,7 +91,8 @@
       "../src/assets/images/products/product4/CopyofToffee_Kombi_Oben_UK.jpg",
       "../src/assets/images/products/product4/stickytoffee5websiteimage.jpeg",
       "../src/assets/images/products/product4/stickytoffee6websiteimage.jpeg"
-    ]
+    ],
+    "rating": 5
   },
   {
     "id": 5,
@@ -113,7 +117,8 @@
       "../src/assets/images/products/product5/GiftBox_Oben_UK_1500.jpg",
       "../src/assets/images/products/product5/GiftBox_Solo_UK_1500.jpg",
       "../src/assets/images/products/product5/GiftBox_UK_1500.jpg"
-    ]
+    ],
+    "rating": 3
   },
   {
     "id": 6,
@@ -135,7 +140,8 @@
       "../src/assets/images/products/product6/3er_Set_700_Front_UK_2000.jpg",
       "../src/assets/images/products/product6/Copyof3er_Set_700_Detail_UK.webp",
       "../src/assets/images/products/product6/Copyof3er_Set_700_Oben_UK.webp"
-    ]
+    ],
+    "rating": 5
   },
   {
     "id": 7,
@@ -160,7 +166,8 @@
       "../src/assets/images/products/product7/CopyofHarteNuss_Kombi_Oben_UK.jpg",
       "../src/assets/images/products/product7/TNLongDrink.webp",
       "../src/assets/images/products/product7/Untitleddesign.webp"
-    ]
+    ],
+    "rating": 5
   },
   {
     "id": 8,
@@ -185,6 +192,7 @@
       "../src/assets/images/products/product8/Blutorange_700_Oben_UK.webp",
       "../src/assets/images/products/product8/Blutorange_Kombi_Front_UK.webp",
       "../src/assets/images/products/product8/Blutorange_Kombi_Oben_UK.jpg"
-    ]
+    ],
+    "rating": 5
   }
 ]
