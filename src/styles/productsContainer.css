@@ -1,6 +1,6 @@
 #products-container {
-  width: 90%;
-  margin: auto;
+  width: 93%;
+  margin: 3rem auto;
   padding: 2rem;
 }
 .cards-container {
@@ -9,16 +9,14 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-.container-title {
-  margin-top: 2rem;
-}
 
 .product-card {
   width: 23%;
   min-width: 230px;
   padding: 10px 12px;
   border: 1px solid var(--border-color);
-  background-color: #f7f7f7;
+  /* background-color: #f2f2f2; */
+  background-color: var(--card-color);
   border-radius: 20px;
   margin: 15px 5px;
   text-align: center;
@@ -56,7 +54,7 @@
   justify-content: center;
 }
 .original-price {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   margin-right: 20px;
 }
 .card-icons {
@@ -66,7 +64,7 @@
 
 .card-icons .ri-shopping-cart-line:hover,
 .card-icons .ri-heart-line:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 .product-card:hover {
   transform: scale(1.01);

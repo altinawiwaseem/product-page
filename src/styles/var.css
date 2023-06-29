@@ -1,18 +1,14 @@
 :root {
+  /* Font size */
   --font-large: 24px;
   --font-size: 16px;
   --font-small: 13px;
   --font-smaller: 11px;
 
-  /*  --primary-color: #f8f4eb; */
-  /*  --primary-color: #f5f1eb; */
-  --primary-color: #ffa566;
-  --secondary-color: #ff4d45;
-  --card-color: #fefdf9;
+  --primary-color: #ff4d45;
+  --card-color: #f3e9d9;
 
   --main-bg-color: #faf6f2;
-  --button-color: #ff6b66;
-  /*  --bg-color: #b29d8c; */
   --bg-color: #ded1bd;
 
   --font-color: #1a1a1a;
@@ -24,6 +20,7 @@
   --color2: #683102;
   --color6: #967c6d;
 
+  /* font weight */
   --fw-regular: 400;
   --fw-medium: 500;
   --fw-semi-bold: 600;

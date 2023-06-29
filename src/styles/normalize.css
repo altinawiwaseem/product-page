@@ -1,19 +1,10 @@
-img {
-  width: 100%;
-  vertical-align: middle;
-}
-
-strong {
-  font-weight: var(--fw-bold);
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-input::placeholder {
-  font: inherit;
+a,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: var(--font-size);
+  font-weight: var(--fw-medium);
 }
 
 h1 {

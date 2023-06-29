@@ -6,7 +6,7 @@
   padding: 0;
 }
 body {
-  background-color: var(--bg-color);
+  background-color: var(--main-bg-color);
   font-size: var(--font-size);
   color: var(--font-color);
   font-family: "Poppins", sans-serif;
@@ -18,12 +18,13 @@ body {
 }
 
 main {
-  width: 90vw;
+  width: 100%;
   background-color: var(--main-bg-color);
 }
 
 #feature {
-  width: 100%;
+  margin: auto;
+  width: 80%;
   height: 120px;
   display: flex;
   justify-content: space-evenly;
@@ -34,10 +35,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   width: 30%;
   height: 100%;
   background-color: var(--card-color);
   font-size: var(--font-size);
+  border-radius: 10px;
 }
 #feature span {
   margin: 1rem;
@@ -85,7 +88,7 @@ main {
 
 .primary-button {
   font-size: var(--font-small);
-  background-color: var(--button-color);
+  background-color: var(--primary-color);
   color: white;
   border-radius: 2em;
   padding: 0.9em 2em;
