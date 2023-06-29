@@ -5,9 +5,7 @@
   .navbar ul {
     padding: 0 2rem;
   }
-  /*  .cards-container {
-    gap: 0px;
-  } */
+
   .product-card {
     width: 33%;
   }
@@ -37,9 +35,15 @@
   .product-card {
     width: 45%;
   }
+  .footer-container {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  #feature {
+    display: none;
+  }
   #products-container {
     width: 100%;
     padding: 0;

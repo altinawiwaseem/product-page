@@ -1,4 +1,5 @@
 :root {
+  --font-large: 24px;
   --font-size: 16px;
   --font-small: 13px;
   --font-smaller: 11px;
@@ -9,9 +10,10 @@
   --secondary-color: #ff4d45;
   --card-color: #fefdf9;
 
-  --main-bg-color: #ffffff;
+  --main-bg-color: #faf6f2;
   --button-color: #ff6b66;
-  --bg-color: #b29d8c;
+  /*  --bg-color: #b29d8c; */
+  --bg-color: #ded1bd;
 
   --font-color: #1a1a1a;
   --border-color: #e5e8ec;

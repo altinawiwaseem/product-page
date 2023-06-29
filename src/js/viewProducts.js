@@ -31,7 +31,10 @@ class ViewProducts {
             <div class="description">
             <h4>${product?.name}</h4>
             ${this.generateStarsHTML(product?.rating)}
-            <h4>${product?.price} €</h4>  
+            <div class="product-price">
+            <del class="original-price">${product?.originalPrice}</del>
+            <h4 class="price">${product?.price} €</h4>  
+            </div>
             </div>
             <div class="card-icons flexcenter">
             <i class="ri-heart-line"></i>

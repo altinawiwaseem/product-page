@@ -33,7 +33,8 @@
 
 .hero .left h1 {
   font-size: 3.4rem;
-  margin: 1rem 0;
+  margin: 1rem 1rem;
+  color: black;
 }
 
 .hero .right {

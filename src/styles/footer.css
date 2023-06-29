@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  padding: 2rem;
+}
+
+.footer-container {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+.footer-container h4 {
+  margin-bottom: 5px;
+}
+
+.footer-container .logo {
+  margin-bottom: 1rem;
+}
+.footer-container i {
+  font-size: var(--font-large);
+}
+.footer-container a:hover,
+.footer-container i:hover {
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+.footer-container .payment img {
+  width: 230px;
+}
+
+.copyright {
+  text-align: center;
+}

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Aperitivo",
-    "originalPrice": "",
+    "originalPrice": 33.5,
     "price": 26.9,
     "title": "Aperitivo - the Italian aperitif by O'Donnell Moonshine",
     "link": "https://odonnellmoonshine.co.uk/blogs/news/what-is-an-aperitif",
@@ -48,7 +48,7 @@
   {
     "id": 3,
     "name": "Set of 3 Moonshine Jars(700ml)",
-    "originalPrice": "",
+    "originalPrice": 90.8,
     "price": 80.7,
     "title": "",
     "link": "",
