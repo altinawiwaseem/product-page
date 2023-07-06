@@ -97,8 +97,7 @@ li {
   display: inline;
 }
 
-.navbar ul li a:hover,
-.navbar ul li a.active {
+.navbar ul li a:hover {
   border-bottom: 2px solid black;
 }
 

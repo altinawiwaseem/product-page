@@ -55,12 +55,6 @@ class ProductList {
       console.error("Error fetching products:", error);
     }
   }
-
-  handleProductClick(product) {
-    // Perform navigation to the individual product page based on the selected product
-    // For simplicity, let's just log the selected product details
-    console.log("Selected Product:", product);
-  }
 }
 
 export { ProductList };

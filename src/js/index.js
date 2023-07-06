@@ -1,8 +1,28 @@
+import { generateHeaderHTML } from "./header.js";
+import { generateFooterHTML } from "./footer.js";
 import { slider } from "./slider.js";
 import { ProductList } from "./products.js";
 import { ViewProducts } from "./viewProducts.js";
 
 slider();
+
+export function htmlFooterAndHeader() {
+  // Retrieve the header container element
+  const headerContainer = document.querySelector(".header");
+
+  // Generate the header HTML and insert it into the container
+  const headerContent = generateHeaderHTML();
+  headerContainer.innerHTML = headerContent;
+
+  // Retrieve the footer container element
+  const footerContainer = document.querySelector(".footer");
+
+  // Generate the footer HTML and insert it into the container
+  const footerContent = generateFooterHTML();
+  footerContainer.innerHTML = footerContent;
+}
+
+htmlFooterAndHeader();
 
 document.addEventListener("DOMContentLoaded", function () {
   const trigger = document.querySelector(".trigger");

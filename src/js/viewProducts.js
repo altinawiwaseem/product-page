@@ -27,6 +27,7 @@ class ViewProducts {
     // Generating HTML based on the item's data
     const html = `
         <div class="product-card">
+        <a href="/product-details.html?id=${product.id}">
            <img src= ${product?.images[0]} />
             <div class="description">
             <h4>${product?.name}</h4>
@@ -40,7 +41,7 @@ class ViewProducts {
             <i class="ri-heart-line"></i>
             <a href="#"><i class="ri-shopping-cart-line"></i> </a>
             </div>
-          
+            </a>
          </div> 
       
       
